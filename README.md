@@ -1,10 +1,10 @@
 # People Detector 👥
 
-A Flask-based web application that detects people in images using OpenCV's HOG (Histogram of Oriented Gradients) descriptor.
+A Flask-based web application that detects people in camera surveillance images using OpenCV's HOG (Histogram of Oriented Gradients) descriptor.
 
 ## Features
 
-- Upload images through a clean web interface
+- Upload images through a clean web interface.
 - Automatic people detection using HOG + SVM
 - Visual results with bounding boxes around detected people
 - Responsive and modern UI
@@ -16,7 +16,10 @@ A Flask-based web application that detects people in images using OpenCV's HOG (
 - **Gunicorn**: Production WSGI server
 - **HTML/CSS**: Frontend interface
 
-## Local Development
+## Web Deployment
+
+Click link and insert .png or .jpg image file of a surveillance footage of a crowd in traffic.
+https://peopledetector-1.onrender.com
 
 ### Prerequisites
 
